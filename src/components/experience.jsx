@@ -43,7 +43,7 @@ const Experience = () => {
 				</article>
 				<article className="flex-item">
 					<h3>
-						Senior Automation Engineer & Python Developer @ KinneyGroup<small className="date">Nov 2015 - Dec 2016</small>
+						Senior Automation Engineer & Python Developer @ Kinney Group<small className="date">Nov 2015 - Dec 2016</small>
 					</h3>
 					<ul>
 						<li>Architected & Implemented Disaster Recovery solution (4000+ VDI VMs) for client (Total recovery time under 8 hours).</li>
@@ -92,7 +92,7 @@ const Experience = () => {
 			<div className="flex">
 				<article className="flex-item">
 					<h3>
-						Senior DevOps Engineer<small className="date">Sep 2013 - May 2014</small>
+						Senior DevOps Engineer @ Angie's List<small className="date">Sep 2013 - May 2014</small>
 					</h3>
 					<ul>
 						<li>Designed and implemented a dramatically improved production deployment process, reducing code deploy time from 3 hours to under 2 minutes, while eliminating downtime. This led to an interview with BitTorrent featured here: http://www.youtube.com/watch?v=yEriQW2evy4&feature=youtu.be</li>
