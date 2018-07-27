@@ -114,8 +114,55 @@ const Experience = () => {
 					</ul>
 				</article>
 			</div>
+			<div className="flex">
+				<article className="flex-item">
+					<h3>
+						System Administrator @ IUPUI<small className="date">Jun 2012 - Sep 2013</small>
+					</h3>
+					<p>
+						Manage all workstations and servers for the department, migrated data from an old OSX 
+						server to Windows Server 2008 R2. Manage backups, file servers, and Access databases. 
+						Maintain a wide variety of specialized Lab PCs (from Windows 2000, PowerPC Macs, up to 
+						Windows 7 and Mountain Lion)
+					</p>
+				</article>
+			</div>
+			<div className="flex">
+				<article className="flex-item">
+					<h3>
+						System Administrator @ Beauchamp McSpadden<small className="date">July 2009 - Aug 2013</small>
+					</h3>
+					<p>
+						Maintaining all workstations, reinstalling operating systems, hardware repair, 
+						supporting VoIP phone system, Exchange, Active Directory, Linux file servers, PHP 
+						programming, redesigning websites, VPN, and forming annual IT budget.
+					</p>
+				</article>
+			</div>
+			<div className="flex">
+				<article className="flex-item">
+					<h3>
+						Adjunct Computer Professor @ Fortis<small className="date">Aug 2011 - Oct 2011</small>
+					</h3>
+					<p>
+						Taught basic computer applications class that incorporated a variety of hardware and 
+						software topics to students within the Medical Assisting program.
+					</p>
+				</article>
+			</div>
+			<div className="flex">
+				<article className="flex-item">
+					<h3>
+						ResNet Technician @ Trine Univerisity<small className="date">Aug 2007 - May 2008</small>
+					</h3>
+					<p>
+						Monitored network, repaired workstations, tutored students/staff on Adobe & MS Office 
+						suites, trained new employees, and in charge of all multimedia equipment.
+					</p>
+				</article>
+			</div>
 		</section>
 	);
-};
+};	
 
 export default Experience;
