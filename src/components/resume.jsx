@@ -45,6 +45,11 @@ class Resume extends React.Component {
 						<div className="flex-item">
 							<h1>Ken Erwin</h1>
 						</div>
+						<div className="flex-item">
+							<a className="download-btn" href="./resume.pdf" download="resume.pdf">
+								<i className="mdi mdi-file-pdf" /> Download PDF
+							</a>
+						</div>
 					</section>
 					<section className="flex contact">
 						<span className="flex-item">
