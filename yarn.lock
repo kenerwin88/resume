@@ -4011,10 +4011,10 @@ md5.js@^1.3.4:
     inherits "^2.0.1"
     safe-buffer "^5.1.2"
 
-mdi@2.1.19:
-  version "2.1.19"
-  resolved "https://registry.yarnpkg.com/mdi/-/mdi-2.1.19.tgz#492bfc0c4fd0c510ebd55301cc76eb03a7a2f34b"
-  integrity sha512-WErwab4jq/jcCeo4aecQ5UH1WXu2Eto5Rdb0AiBFcUw8CHmF/UeV+hf9wKyH17X+c3Z+jaS3jDKW7fu0R0HmWQ==
+mdi@2.2.43:
+  version "2.2.43"
+  resolved "https://registry.yarnpkg.com/mdi/-/mdi-2.2.43.tgz#c5e419a6e5f48c82c7109328f52530fd187a0ec0"
+  integrity sha512-g3m6z4303qieltUM20JL2gdsJZvoVzIzO74qa2XxZ2kg9JPwrPEAgooVhRDHZi1vvRh0gB8Dg+c9XqNdz4jcIg==
 
 media-typer@0.3.0:
   version "0.3.0"
