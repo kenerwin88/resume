@@ -1,26 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Experience from './experience.jsx';
-import Education from './education.jsx';
-import Projects from './projects.jsx';
-import Awards from './awards.jsx';
+import React from "react";
+import ReactDOM from "react-dom";
+import Experience from "./experience.jsx";
+import Education from "./education.jsx";
+import Projects from "./projects.jsx";
+import Awards from "./awards.jsx";
 
-const STORE_KEY = 'USE_DARK_MODE';
+const STORE_KEY = "USE_DARK_MODE";
 
 class Resume extends React.Component {
 	state = {
-		checkedInput: false
+		checkedInput: false,
 	};
 
 	componentWillMount() {
-		if (typeof localStorage !== 'undefined') {
+		if (typeof localStorage !== "undefined") {
 			const checked = localStorage.getItem(STORE_KEY) || false;
 			this.setState({ checkedInput: JSON.parse(checked) });
 		}
 	}
 
 	handleToggle = () => {
-		if (typeof localStorage !== 'undefined') {
+		if (typeof localStorage !== "undefined") {
 			const checkedInput = !this.state.checkedInput;
 			localStorage.setItem(STORE_KEY, checkedInput);
 			this.setState({ checkedInput });
@@ -29,12 +29,19 @@ class Resume extends React.Component {
 
 	render() {
 		return (
-			<div id="wrapper" className={this.state.checkedInput ? 'dark-theme' : 'default-theme'}>
+			<div
+				id="wrapper"
+				className={this.state.checkedInput ? "dark-theme" : "default-theme"}
+			>
 				<section className="controls">
 					<div className="toggle-theme">
 						<i className="mdi mdi-24px mdi-white-balance-sunny" />
 						<label className="switch">
-							<input checked={this.state.checkedInput} onChange={this.handleToggle} type="checkbox" />
+							<input
+								checked={this.state.checkedInput}
+								onChange={this.handleToggle}
+								type="checkbox"
+							/>
 							<span className="slider" />
 						</label>
 						<i className="mdi mdi-24px mdi-weather-night" />
@@ -46,7 +53,11 @@ class Resume extends React.Component {
 							<h1>Ken Erwin</h1>
 						</div>
 						<div className="flex-item">
-							<a className="download-btn" href="./resume.pdf" download="resume.pdf">
+							<a
+								className="download-btn"
+								href="./resume.pdf"
+								download="resume.pdf"
+							>
 								<i className="mdi mdi-file-pdf" /> Download PDF
 							</a>
 						</div>
@@ -65,13 +76,19 @@ class Resume extends React.Component {
 							</a>
 						</span>
 						<span className="flex-item">
-							<a className="contact-item" href="https://github.com/devopslibrary">
+							<a
+								className="contact-item"
+								href="https://github.com/devopslibrary"
+							>
 								<i className="mdi mdi-github-circle" />
 								&nbsp;/devopslibrary
 							</a>
 						</span>
 						<span className="flex-item">
-							<a className="contact-item" href="https://www.linkedin.com/in/kenerwin88/">
+							<a
+								className="contact-item"
+								href="https://www.linkedin.com/in/kenerwin88/"
+							>
 								<i className="mdi mdi-linkedin-box" />
 								&nbsp;/kenerwin88
 							</a>
@@ -79,11 +96,13 @@ class Resume extends React.Component {
 					</section>
 					<section className="pitch">
 						<p>
-						Proven, resourceful engineering visionary with extensive experience architecting, 
-						developing, and delivering solutions at every level of the technology stack. Founder of 
-						the DevOps Library, with experience leading projects and mentoring. Known for working 
-						across team boundaries to achieve business results. Personable team player, with a 
-						passion for excelling in constantly evolving environments.
+							Proven, resourceful engineering visionary with extensive
+							experience architecting, developing, and delivering solutions at
+							every level of the technology stack. Founder of the DevOps
+							Library, with experience leading projects and mentoring. Known for
+							working across team boundaries to deliver business value.
+							Personable team player, with a passion for excelling in constantly
+							evolving environments.
 						</p>
 						<p>
 							<br />
@@ -107,10 +126,10 @@ class Resume extends React.Component {
 										<li>Agile Methodologies</li>
 										<li>Large & Small Enterprise Architecture</li>
 										<li>Immutable Infrastructure</li>
+										<li>Kubernetes</li>
 										<li>IaaS, PaaS</li>
 										<li>Open Source Tools</li>
 										<li>Performance Monitoring</li>
-										<li>Change Management</li>
 									</ul>
 								</td>
 							</tr>
