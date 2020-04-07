@@ -1,64 +1,64 @@
-'use strict';
+"use strict";
 
 const ENVIRONMENT = process.env.NODE_ENV;
-const webpack = require('webpack');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const path = require('path');
-const autoprefixer = require('autoprefixer');
+const webpack = require("webpack");
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const path = require("path");
+const autoprefixer = require("autoprefixer");
 
 const postCSSLoader = {
-	loader: 'postcss-loader',
+	loader: "postcss-loader",
 	options: {
 		sourceMap: true,
 		plugins() {
 			return [
 				autoprefixer({
-					browsers: ['last 3 versions']
-				})
+					overrideBrowserslist: ["last 3 versions"],
+				}),
 			];
-		}
-	}
+		},
+	},
 };
 
 const config = {
-	devtool: 'source-map',
+	devtool: "source-map",
 
 	stats: {
 		colors: true,
-		reasons: true
+		reasons: true,
 	},
 
 	entry: {
-		bundle: [`${__dirname}/src/root.jsx`]
+		bundle: [`${__dirname}/src/root.jsx`],
 	},
 
-	target: 'web',
+	target: "web",
 
 	output: {
-		libraryTarget: 'var',
+		libraryTarget: "var",
 		path: `${__dirname}/dist/`,
-		filename: '[name].js',
-		chunkFilename: '[id].js',
-		publicPath: '/dist/'
+		filename: "[name].js",
+		chunkFilename: "[id].js",
+		publicPath: "/dist/",
 	},
 
 	plugins: [
 		new webpack.DefinePlugin({
-			'process.env': {
-				NODE_ENV: JSON.stringify(ENVIRONMENT)
-			}
+			"process.env": {
+				NODE_ENV: JSON.stringify(ENVIRONMENT),
+			},
 		}),
-		new webpack.DefinePlugin({ 'global.GENTLY': false }),
+		new webpack.DefinePlugin({ "global.GENTLY": false }),
 		new webpack.NoEmitOnErrorsPlugin(),
-		new ExtractTextPlugin('style.css')
+		new ExtractTextPlugin("style.css"),
 	],
 
 	resolve: {
-		modules: ['node_modules', 'src'],
-		extensions: ['.js', '.jsx'],
+		modules: ["node_modules", "src"],
+		extensions: [".js", ".jsx"],
 		alias: {
-			img: path.resolve(__dirname, './img')
-		}
+			img: path.resolve(__dirname, "./img"),
+		},
 	},
 
 	module: {
@@ -66,58 +66,71 @@ const config = {
 			{
 				test: /\.scss$/,
 				use: ExtractTextPlugin.extract({
-					use: [{ loader: 'css-loader', options: { minimize: true, importLoaders: 1 } }, postCSSLoader, { loader: 'sass-loader' }]
-				})
+					use: [
+						{
+							loader: "css-loader",
+							options: { minimize: true, importLoaders: 1 },
+						},
+						postCSSLoader,
+						{ loader: "sass-loader" },
+					],
+				}),
 			},
 			{
 				test: /\.css$/,
 				use: ExtractTextPlugin.extract({
-					fallback: 'style-loader',
+					fallback: "style-loader",
 					use: [
 						{
-							loader: 'css-loader',
-							options: { minimize: true, importLoaders: 1 }
-						}
-					]
-				})
+							loader: "css-loader",
+							options: { minimize: true, importLoaders: 1 },
+						},
+					],
+				}),
 			},
-			{ test: /\.jsx?$/, exclude: /node_modules/, loader: ['babel-loader'] },
-			{ test: /\.json$/, exclude: /node_modules/, loader: 'json' },
-			{ test: /\.(png|jpg|gif)$/, loader: 'file-loader?limit=100000' },
+			{ test: /\.jsx?$/, exclude: /node_modules/, loader: ["babel-loader"] },
+			{ test: /\.json$/, exclude: /node_modules/, loader: "json" },
+			{ test: /\.(png|jpg|gif)$/, loader: "file-loader?limit=100000" },
 			{
 				test: /\.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
-				loader: 'file-loader?name=fonts/[name].[ext]'
-			}
-		]
-	}
+				loader: "file-loader?name=fonts/[name].[ext]",
+			},
+		],
+	},
 };
 
-if (ENVIRONMENT === 'development') {
+if (ENVIRONMENT === "development") {
 	// add modules for hot reloading
-	config.entry.bundle.unshift('webpack-hot-middleware/client');
-	config.entry.bundle.unshift('webpack/hot/dev-server');
+	config.entry.bundle.unshift("webpack-hot-middleware/client");
+	config.entry.bundle.unshift("webpack/hot/dev-server");
 	config.plugins.push(new webpack.HotModuleReplacementPlugin());
 
 	config.module.rules[0] = {
 		test: /\.scss$/,
 		use: [
-			{ loader: 'style-loader' },
+			{ loader: "style-loader" },
 			{
-				loader: 'css-loader',
-				options: { minimize: true, importLoaders: 1 }
+				loader: "css-loader",
+				options: { minimize: true, importLoaders: 1 },
 			},
 			postCSSLoader,
 			{
-				loader: 'sass-loader',
+				loader: "sass-loader",
 				options: {
-					includePaths: [path.resolve(__dirname, './node_modules/compass-mixins/lib')],
-					sourceMap: true
-				}
-			}
-		]
+					includePaths: [
+						path.resolve(__dirname, "./node_modules/compass-mixins/lib"),
+					],
+					sourceMap: true,
+				},
+			},
+		],
 	};
 
-	config.module.rules[1] = { test: /\.css$/, exclude: /node_modules/, loader: ['css-loader'] };
+	config.module.rules[1] = {
+		test: /\.css$/,
+		exclude: /node_modules/,
+		loader: ["css-loader"],
+	};
 } else {
 	/**
 	 * PRODUCTION!
@@ -128,8 +141,8 @@ if (ENVIRONMENT === 'development') {
 		comments: false,
 		minimize: true,
 		compress: {
-			drop_console: true
-		}
+			drop_console: true,
+		},
 	};
 
 	// minify JS

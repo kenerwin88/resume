@@ -11,12 +11,12 @@ const Experience = () => {
 						<small className="date">September 2018 - Present</small>
 					</h3>
 					<p>
-						Driving innovation and modernization efforts across all KAR Global
-						infrastructure. Responsible for the design and implementation of
-						overall tech strategy and roadmap for multiple lines of business
-						(hosted both on-prem and public cloud). Actively fostering a shift
-						from legacy IT practices to a devops culture with cross-functional
-						SREs.
+						Responsible for innovation and modernization efforts across all KAR
+						Global infrastructure. Responsible for the design and implementation
+						of overall tech strategy, and ensuring alignment across multiple
+						lines of business (hosted both on-prem and public cloud). Actively
+						fostering a shift from legacy IT practices to a devops culture with
+						cross-functional SREs.
 					</p>
 					<br />
 					<p>
