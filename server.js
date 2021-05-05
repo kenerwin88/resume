@@ -3,8 +3,6 @@ const express = require('express');
 const config = require('./webpack.config');
 
 const compiler = require('webpack')(config);
-const webpackDevMiddleWare = require('webpack-dev-middleware');
-const webpackHotMiddleware = require('webpack-hot-middleware');
 
 const app = express();
 const ENVIRONMENT = process.env.NODE_ENV;
@@ -21,8 +19,7 @@ if (ENVIRONMENT === 'development') {
 			noInfo: true,
 			publicPath: config.output.publicPath
 		};
-		serverInstance.use(webpackDevMiddleWare(compiler, options));
-		serverInstance.use(webpackHotMiddleware(compiler));
+
 	})(app);
 }
 
