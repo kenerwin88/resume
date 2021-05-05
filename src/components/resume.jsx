@@ -2,6 +2,7 @@ import React from "react";
 import Experience from "./experience.jsx";
 import Education from "./education.jsx";
 import Projects from "./projects.jsx";
+import Certifications from "./certifications";
 
 const STORE_KEY = "USE_DARK_MODE";
 
@@ -105,17 +106,17 @@ class Resume extends React.Component {
 									<ul>
 										<li>Technical Strategy and Roadmap</li>
 										<li>Hiring, Mentoring, Growth, Retention of Talent</li>
-										<li>Private & Public Cloud Architecture</li>
+										<li>Microservices at Scale</li>
 										<li>DevOps Culture & Tools</li>
 										<li>Configuration Management</li>
 										<li>Continuous Integration and Delivery</li>
-										<li>Highly-Available Infrastructure</li>
+										<li>Highly-Available Architecture</li>
 									</ul>
 								</td>
 								<td>
 									<ul>
 										<li>Agile Methodologies</li>
-										<li>Large & Small Enterprise Architecture</li>
+										<li>NoSQL & SQL Databases</li>
 										<li>Immutable Infrastructure</li>
 										<li>Kubernetes</li>
 										<li>IaaS, PaaS</li>
@@ -129,6 +130,7 @@ class Resume extends React.Component {
 					<Experience />
 					<Education />
 					<Projects />
+					<Certifications />
 				</main>
 			</div>
 		);

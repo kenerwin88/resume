@@ -7,8 +7,24 @@ const Experience = () => {
 			<div className="flex">
 				<article className="flex-item">
 					<h3>
+						Senior DevOps Consultant @ Amazon Web Services (AWS)
+						<small className="date">June 2020 - Present</small>
+					</h3>
+					<p>
+						AWS Professional Services consultant with a focus on Amazon's strategic accounts.
+					</p>
+
+					<div className="tags">
+						<span className="tag-item">Kubernetes</span>
+						<span className="tag-item">Golang</span>
+						<span className="tag-item">Protobuf</span>
+						<span className="tag-item">AWS CDK</span>
+					</div>
+				</article>
+				<article className="flex-item">
+					<h3>
 						Chief Architect of Infrastructure @ KAR Global{" "}
-						<small className="date">September 2018 - Present</small>
+						<small className="date">September 2018 - June 2020</small>
 					</h3>
 					<p>
 						Driving innovation and modernization efforts across all KAR Global
@@ -70,6 +86,8 @@ const Experience = () => {
 						<span className="tag-item">Ansible</span>
 					</div>
 				</article>
+			</div>
+			<div className="flex">
 				<article className="flex-item">
 					<h3>
 						Senior Manager of Automation @ Salesforce{" "}
@@ -115,7 +133,7 @@ const Experience = () => {
 							deploying to VMware, Virtualbox, and MAAS (for physical
 							deployments). This has made it possible to quickly iterate and
 							test on the exact same image that’s deployed in all 3 scenarios.
-							Our Server 2016 image is now the 4th most popularimage for Vagrant
+							Our Server 2016 image is now the 4th most popular image for Vagrant
 							on Atlas.
 						</li>
 						<li>
@@ -148,8 +166,6 @@ const Experience = () => {
 						<span className="tag-item">F5 Load Balancers</span>
 					</div>
 				</article>
-			</div>
-			<div className="flex">
 				<article className="flex-item">
 					<h3>
 						Senior Automation Engineer & Python Developer @ Kinney Group
@@ -200,6 +216,8 @@ const Experience = () => {
 						</li>
 					</ul>
 				</article>
+			</div>
+			<div className="flex">
 				<article className="flex-item">
 					<h3>
 						Senior Automation Engineer @ Nephila Advisors{" "}
@@ -225,8 +243,6 @@ const Experience = () => {
 						<li>Cisco UCS Automation (PowerShell PowerTools)</li>
 					</ul>
 				</article>
-			</div>
-			<div className="flex">
 				<article className="flex-item">
 					<h3>
 						Senior DevOps Developer @ Interactive Intelligence
@@ -254,6 +270,8 @@ const Experience = () => {
 						</li>
 					</ul>
 				</article>
+			</div>
+				<div className="flex">
 				<article className="flex-item">
 					<h3>
 						Senior DevOps Engineer @ Angie's List
@@ -265,7 +283,7 @@ const Experience = () => {
 							deployment process, reducing code deploy time from 3 hours to
 							under 2 minutes, while eliminating downtime. This led to an
 							interview with BitTorrent featured here:
-							http://www.youtube.com/watch?v=yEriQW2evy4&feature=youtu.be
+							https://www.youtube.com/watch?v=yEriQW2evy4&feature=youtu.be
 						</li>
 						<li>
 							Managed several hundred Windows and Linux servers, (Blades, VMs,
@@ -329,8 +347,7 @@ const Experience = () => {
 						<li>Maintained massive MS SQL and MySQL databases.</li>
 					</ul>
 				</article>
-			</div>
-			<div className="flex">
+
 				<article className="flex-item">
 					<h3>
 						System Administrator @ IUPUI
@@ -344,6 +361,8 @@ const Experience = () => {
 						Windows 7 and Mountain Lion)
 					</p>
 				</article>
+				</div>
+			<div className="flex">
 				<article className="flex-item">
 					<h3>
 						System Administrator @ Beauchamp McSpadden
@@ -356,8 +375,6 @@ const Experience = () => {
 						websites, VPN, and forming annual IT budget.
 					</p>
 				</article>
-			</div>
-			<div className="flex">
 				<article className="flex-item">
 					<h3>
 						Adjunct Computer Professor @ Fortis
@@ -367,17 +384,6 @@ const Experience = () => {
 						Taught basic computer applications class that incorporated a variety
 						of hardware and software topics to students within the Medical
 						Assisting program.
-					</p>
-				</article>
-				<article className="flex-item">
-					<h3>
-						ResNet Technician @ Trine Univerisity
-						<small className="date">Aug 2007 - May 2008</small>
-					</h3>
-					<p>
-						Monitored network, repaired workstations, tutored students/staff on
-						Adobe & MS Office suites, trained new employees, and in charge of
-						all multimedia equipment.
 					</p>
 				</article>
 			</div>

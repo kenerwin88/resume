@@ -7,7 +7,7 @@ const path = require("path");
 module.exports = {
 	mode: 'development',
 	devtool: "source-map",
-	
+
 	stats: {
 		colors: true,
 		reasons: true,
@@ -50,7 +50,7 @@ module.exports = {
 				}
 			},
 			{
-				test: /\.s(a|c)ss$/,
+				test: /\.s([ac])ss$/,
 				use: ['style-loader', 'css-loader', 'sass-loader' ]
 			},
 			{ test: /\.json$/, exclude: /node_modules/, loader: "json" },
@@ -70,7 +70,7 @@ module.exports = {
 			},
 		]
 	}
-			
+
 
 
 		// 	{
@@ -93,7 +93,7 @@ module.exports = {
 		// 					sourceMap: true,
 		// 				},
 		// 			},
-	
+
 		// 		],
 		// 	}
 		// ],
