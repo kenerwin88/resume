@@ -1,9 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Experience from "./experience.jsx";
 import Education from "./education.jsx";
 import Projects from "./projects.jsx";
-import Awards from "./awards.jsx";
 
 const STORE_KEY = "USE_DARK_MODE";
 
