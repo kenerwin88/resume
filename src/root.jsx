@@ -7,9 +7,3 @@ import 'scss/style.scss';
 const rootElement = document.querySelector('#main');
 
 ReactDOM.render(<Resume />, rootElement);
-
-if (module.hot) {
-	module.hot.accept(Resume, () => {
-		ReactDOM.render(<Resume />, rootElement);
-	});
-}

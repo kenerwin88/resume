@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 const Projects = () => {
 	return (
@@ -11,10 +10,10 @@ const Projects = () => {
 						DevOps Library <small className="date">2016 - Present</small>
 					</h3>
 					<p>
-						Founded the "DevOps Library", providing free videos & courses for everyone in the DevOps 
+						Founded the "DevOps Library", providing free videos & courses for everyone in the DevOps
 						community, as well hosting an annual conference.  Over 300,000 watches on YouTube<br/>
 						<a href="https://www.devopslibrary.com">https://www.devopslibrary.com</a>
-					</p> 
+					</p>
 					<div className="tags">
 						<span className="tag-item">Jenkins</span>
 						<span className="tag-item">SaltStack</span>
