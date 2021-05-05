@@ -45,7 +45,7 @@
 		"express": "4.17.1",
 		"mdi": "2.2.43",
 		"normalize-scss": "7.0.1",
-		"react": "16.13.1",
+		"react": "16.14.0",
 		"react-dom": "16.2.1",
 		"sass": "^1.32.12",
 		"sass-loader": "^10.1.1"
