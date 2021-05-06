@@ -248,11 +248,6 @@ const Experience = () => {
 						Senior DevOps Developer @ Interactive Intelligence
 						<small className="date">May 2014 - Mar 2015</small>
 					</h3>
-					<p>
-						Remote/Onsite consulting for tools & apps owned by small and medium
-						scale businesses. Built & maintained over 15+ projects for happy
-						clients.
-					</p>
 					<ul>
 						<li>
 							Created and actively maintained the largest production Windows
