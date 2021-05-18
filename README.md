@@ -1,6 +1,6 @@
 ## Resume
 
-My Resume. https://devopslibrary.github.io/resume/
+My Resume. https://kenerwin88.github.io/resume/
 
 Deploy run `sh deploy.sh`
 
