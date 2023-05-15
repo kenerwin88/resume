@@ -7,8 +7,30 @@ const Projects = () => {
 			<div className="flex">
 				<article className="flex-item">
 					<h3>
-						DevOps Library <small className="date">2016 - Present</small>
+						Dialogue Smith
 					</h3>
+					<small className="date">2022 - Present</small>
+					<p>
+						Game dialog generator and API for RPGs, built in partnership with two other AI/game developers, leveraging GPT (text-davinci-003), NestJS, and Pinecone (Vector DB). 
+						<br />
+						<a href="https://dialoguesmith.com">
+						https://dialoguesmith.com
+						</a>
+					</p>
+					<div className="tags">
+						<span className="tag-item">LLM</span>
+						<span className="tag-item">GPT</span>
+						<span className="tag-item">text-davinci-003</span>
+						<span className="tag-item">NestJS</span>
+						<span className="tag-item">Pinecone</span>
+						<span className="tag-item">Vector DB</span>
+					</div>
+				</article>
+				<article className="flex-item">
+					<h3>
+						DevOps Library
+					</h3>
+					<small className="date">2016 - Present</small>
 					<p>
 						Founded the "DevOps Library", providing free videos & courses for
 						everyone in the DevOps community, as well hosting an annual
@@ -29,9 +51,9 @@ const Projects = () => {
 				</article>
 				<article className="flex-item">
 					<h3>
-						Learning Sensu - Setting Up, Scaling, and Mastering DevOps
-						Monitoring <small className="date">2015</small>
+						Learning Sensu - Setting Up, Scaling, and Mastering DevOps Monitoring				
 					</h3>
+					<small className="date">2015</small>
 					<p>
 						Video Course published through O'Reilly on monitoring with Sensu.{" "}
 						<a href="http://shop.oreilly.com/product/0636920044529.do">

@@ -69,10 +69,10 @@ class Resume extends React.Component {
 						<span className="flex-item">
 							<a
 								className="contact-item"
-								href="https://github.com/devopslibrary"
+								href="https://github.com/kenerwin88"
 							>
 								<i className="mdi mdi-github-circle" />
-								&nbsp;/devopslibrary
+								&nbsp;/kenerwin88
 							</a>
 						</span>
 						<span className="flex-item">

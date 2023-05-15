@@ -8,8 +8,8 @@ const Experience = () => {
 				<article className="flex-item">
 					<h3>
 						Senior DevOps Consultant @ Amazon Web Services (AWS)
-						<small className="date">August 2022 - Present</small>
 					</h3>
+					<small className="date">August 2022 - Present</small>
 					<p>
 						Technical lead on AWS's strategic accounts, spearheading the
 						architecting, implementation, and leadership of solutions for
@@ -61,8 +61,8 @@ const Experience = () => {
 				<article className="flex-item">
 					<h3>
 						Creator @ PixelMap.io
-						<small className="date">November 2016 - Present</small>
 					</h3>
+					<small className="date">November 2016 - Present</small>
 					<p>
 						An early entrant into the blockchain space, PixelMap is recognized
 						as one of the first Non-Fungible Tokens (NFTs) in existence,
@@ -107,8 +107,8 @@ const Experience = () => {
 				<article className="flex-item">
 					<h3>
 						Senior DevOps Consultant @ Amazon Web Services (AWS)
-						<small className="date">June 2020 - September 2021</small>
 					</h3>
+					<small className="date">June 2020 - September 2021</small>
 					<p>
 						Technical lead on AWS's strategic accounts. Responsible for
 						architecting, leading, and implementing solutions for Amazon's
@@ -166,8 +166,8 @@ const Experience = () => {
 				<article className="flex-item">
 					<h3>
 						Chief Architect of Infrastructure @ KAR Global{" "}
-						<small className="date">September 2018 - June 2020</small>
 					</h3>
+					<small className="date">September 2018 - June 2020</small>
 					<p>
 						Driving innovation and modernization efforts across all KAR Global
 						infrastructure. Responsible for the design and implementation of
@@ -233,8 +233,8 @@ const Experience = () => {
 				<article className="flex-item">
 					<h3>
 						Senior Manager of Automation @ Salesforce{" "}
-						<small className="date">Dec 2016 - September 2018</small>
 					</h3>
+					<small className="date">Dec 2016 - September 2018</small>
 					<p>
 						Leading Infrastructure & Development automation efforts across
 						Salesforce, through declarative data, configuration management, and
@@ -311,8 +311,8 @@ const Experience = () => {
 				<article className="flex-item">
 					<h3>
 						Senior Automation Engineer & Python Developer @ Kinney Group
-						<small className="date">Nov 2015 - Dec 2016</small>
 					</h3>
+					<small className="date">Nov 2015 - Dec 2016</small>
 					<ul>
 						<li>
 							Architected & Implemented Disaster Recovery solution (4000+ VDI
@@ -363,8 +363,8 @@ const Experience = () => {
 				<article className="flex-item">
 					<h3>
 						Senior Automation Engineer @ Nephila Advisors{" "}
-						<small className="date">Apr 2015 - Oct 2015</small>
 					</h3>
+					<small className="date">Apr 2015 - Oct 2015</small>
 					<ul>
 						<li>
 							Created and maintained Puppet environment (Primarily Windows,
@@ -388,8 +388,8 @@ const Experience = () => {
 				<article className="flex-item">
 					<h3>
 						Senior DevOps Developer @ Interactive Intelligence
-						<small className="date">May 2014 - Mar 2015</small>
 					</h3>
+					<small className="date">May 2014 - Mar 2015</small>
 					<ul>
 						<li>
 							Created and actively maintained the largest production Windows
@@ -412,8 +412,8 @@ const Experience = () => {
 				<article className="flex-item">
 					<h3>
 						Senior DevOps Engineer @ Angie's List
-						<small className="date">Sep 2013 - May 2014</small>
 					</h3>
+					<small className="date">Sep 2013 - May 2014</small>
 					<ul>
 						<li>
 							Designed and implemented a dramatically improved production
@@ -488,8 +488,8 @@ const Experience = () => {
 				<article className="flex-item">
 					<h3>
 						System Administrator @ IUPUI
-						<small className="date">Jun 2012 - Sep 2013</small>
 					</h3>
+					<small className="date">Jun 2012 - Sep 2013</small>
 					<p>
 						Manage all workstations and servers for the department, migrated
 						data from an old OSX server to Windows Server 2008 R2. Manage
@@ -503,8 +503,8 @@ const Experience = () => {
 				<article className="flex-item">
 					<h3>
 						System Administrator @ Beauchamp McSpadden
-						<small className="date">July 2009 - Aug 2013</small>
 					</h3>
+					<small className="date">July 2009 - Aug 2013</small>
 					<p>
 						Maintaining all workstations, reinstalling operating systems,
 						hardware repair, supporting VoIP phone system, Exchange, Active
@@ -515,8 +515,8 @@ const Experience = () => {
 				<article className="flex-item">
 					<h3>
 						Adjunct Computer Professor @ Fortis
-						<small className="date">Aug 2011 - Oct 2011</small>
 					</h3>
+					<small className="date">Aug 2011 - Oct 2011</small>
 					<p>
 						Taught basic computer applications class that incorporated a variety
 						of hardware and software topics to students within the Medical
