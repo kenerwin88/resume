@@ -51,8 +51,7 @@ class Resume extends React.Component {
 						<div className="flex-item">
 							<h1>Ken Erwin</h1>
 						</div>
-						<div className="flex-item">
-						</div>
+						<div className="flex-item"></div>
 					</section>
 					<section className="flex contact">
 						<span className="flex-item">

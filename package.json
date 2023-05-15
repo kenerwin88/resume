@@ -5,7 +5,8 @@
 	"main": "webpack.config.js",
 	"scripts": {
 		"serve": "node build.js && node server.js",
-		"build": "rm -rf dist && NODE_ENV=production node build.js"
+		"build": "rm -rf dist && NODE_ENV=production node build.js",
+		"format": "npx prettier . --write"
 	},
 	"repository": {
 		"type": "git",
@@ -30,5 +31,9 @@
 		"react-dom": "17.0.2",
 		"sass": "^1.32.12",
 		"sass-loader": "11.0.1"
+	},
+	"devDependencies": {
+		"jslint": "^0.12.1",
+		"prettier": "^2.8.8"
 	}
 }

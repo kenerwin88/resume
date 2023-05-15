@@ -5,23 +5,50 @@ const Experience = () => {
 		<section className="section">
 			<h2>Relevant Experience</h2>
 			<div className="flex">
-			<article className="flex-item">
+				<article className="flex-item">
 					<h3>
 						Senior DevOps Consultant @ Amazon Web Services (AWS)
 						<small className="date">August 2022 - Present</small>
 					</h3>
 					<p>
-					Technical lead on AWS's strategic accounts, spearheading the architecting, implementation, 
-					and leadership of solutions for Amazon's high-profile customers. Responsibilities span from 
-					intricate technical details to director-level strategic planning and coordination.
+						Technical lead on AWS's strategic accounts, spearheading the
+						architecting, implementation, and leadership of solutions for
+						Amazon's high-profile customers. Responsibilities span from
+						intricate technical details to director-level strategic planning and
+						coordination.
 					</p>
 					<ul>
-						<li>Created and launched one of the first CodeCatalyst blueprints during the Re:Invent conference, now utilized as a base ETL template for thousands of AWS customers.</li>
-						<li>Led transformative initiatives for major clients like McDonald's, Paramount, and Delta Airlines, maximizing their use of AWS's cloud and DevOps capabilities for business growth and a culture of continuous improvement.</li>
-						<li>Contributed significantly to AWS's migration offering, facilitating smoother transitions for customers moving their operations to the cloud.</li>
-						<li>Strategically guided high-stakes migrations and implementations for Amazon’s largest customers.</li>
-						<li>Served as a subject matter expert on cloud computing, DevOps, Kubernetes, on-premises migrations, and fostering overall improvements in DevOps cultural maturity.</li>
-						<li>Played an instrumental role in improving hiring practices for AWS DevOps & SRE candidates, including mentoring interviewers and new hires, creating objective assessment methods, and raising the expectations for various roles within AWS.</li>
+						<li>
+							Created and launched one of the first CodeCatalyst blueprints
+							during the Re:Invent conference, now utilized as a base ETL
+							template for thousands of AWS customers.
+						</li>
+						<li>
+							Led transformative initiatives for major clients like McDonald's,
+							Paramount, and Delta Airlines, maximizing their use of AWS's cloud
+							and DevOps capabilities for business growth and a culture of
+							continuous improvement.
+						</li>
+						<li>
+							Contributed significantly to AWS's migration offering,
+							facilitating smoother transitions for customers moving their
+							operations to the cloud.
+						</li>
+						<li>
+							Strategically guided high-stakes migrations and implementations
+							for Amazon’s largest customers.
+						</li>
+						<li>
+							Served as a subject matter expert on cloud computing, DevOps,
+							Kubernetes, on-premises migrations, and fostering overall
+							improvements in DevOps cultural maturity.
+						</li>
+						<li>
+							Played an instrumental role in improving hiring practices for AWS
+							DevOps & SRE candidates, including mentoring interviewers and new
+							hires, creating objective assessment methods, and raising the
+							expectations for various roles within AWS.
+						</li>
 					</ul>
 
 					<div className="tags">
@@ -37,18 +64,35 @@ const Experience = () => {
 						<small className="date">November 2016 - Present</small>
 					</h3>
 					<p>
-					An early entrant into the blockchain space, PixelMap is recognized as one of the first 
-					Non-Fungible Tokens (NFTs) in existence, predating the term 'NFT' and the ERC-721 standard. 
-					It broke new ground by storing image data directly on-chain, securing its place as the second 
-					oldest NFT ever created. The platform offers unique capabilities to create, display, and update 
-					artwork on a 'pixel map,' with all historical data permanently preserved on the blockchain.
+						An early entrant into the blockchain space, PixelMap is recognized
+						as one of the first Non-Fungible Tokens (NFTs) in existence,
+						predating the term 'NFT' and the ERC-721 standard. It broke new
+						ground by storing image data directly on-chain, securing its place
+						as the second oldest NFT ever created. The platform offers unique
+						capabilities to create, display, and update artwork on a 'pixel
+						map,' with all historical data permanently preserved on the
+						blockchain.
 					</p>
 					<ul>
 						<li>Featured in an episode of "This American Life" by Ira Glass</li>
-						<li>Leading a team of three, including a developer, musician, and artist, to build a state-of-the-art web3 game.</li>
-						<li>Leveraging an LLM and Vector DB within the game to give NPCs much more realism.</li>
-						<li>Engaged in active full-stack development, overseeing all aspects of PixelMap's progression.</li>
-						<li>Developed NFTArchaeology.io, a dedicated platform offering a trusted resource for historical NFTs. This includes a REST API that allows exchanges and other websites to access curated data about early contracts.</li>
+						<li>
+							Leading a team of three, including a developer, musician, and
+							artist, to build a state-of-the-art web3 game.
+						</li>
+						<li>
+							Leveraging an LLM and Vector DB within the game to give NPCs much
+							more realism.
+						</li>
+						<li>
+							Engaged in active full-stack development, overseeing all aspects
+							of PixelMap's progression.
+						</li>
+						<li>
+							Developed NFTArchaeology.io, a dedicated platform offering a
+							trusted resource for historical NFTs. This includes a REST API
+							that allows exchanges and other websites to access curated data
+							about early contracts.
+						</li>
 						<li>Further information available at: PixelMap.io</li>
 					</ul>
 					<div className="tags">
@@ -60,25 +104,56 @@ const Experience = () => {
 				</article>
 			</div>
 			<div className="flex">
-			
-			<article className="flex-item">
+				<article className="flex-item">
 					<h3>
 						Senior DevOps Consultant @ Amazon Web Services (AWS)
 						<small className="date">June 2020 - September 2021</small>
 					</h3>
 					<p>
-						Technical lead on AWS's strategic accounts. Responsible for architecting, 
-						leading, and implementing solutions for Amazon's largest customers (SnapChat, EA, Pinterest), 
-						spanning from low-level technical details to director-level strategic planning and coordination. 
+						Technical lead on AWS's strategic accounts. Responsible for
+						architecting, leading, and implementing solutions for Amazon's
+						largest customers (SnapChat, EA, Pinterest), spanning from low-level
+						technical details to director-level strategic planning and
+						coordination.
 					</p>
 					<ul>
-						<li>Added support to custom SnapChat service mesh tooling for interfacing with (and displaying) deployments from Spinnaker via an enhanced UI.</li>
-						<li>Designed & developed custom internal Golang service for Snapchat, handling degraded service notifications between application owners on Snap's service mesh.</li>
-						<li>Strategic lead for migration from on-premise custom infrastructure as code tooling & legacy JBOSS applications to containerized applications on managed infrastructure and implementation of CI/CD (via Github Actions & Terraform) for Electronic Arts (EA).</li>
-						<li>Rewrote a significant portion of a custom data recovery tool for Pinterest, streamlining and scaling the application to handle fast & efficient searching through petabytes of data.</li>
-						<li>Created a declarative data model for implementing AWS CDK for less technical teams to migrate to infrastructure-as-code (now utilized by several customers).</li>
-						<li>Served as a subject matter expert for Kubernetes, CI/CD, containerization, on-premises migrations, and fostering overall improvements in DevOps cultural maturity.</li>
-						<li>Improved hiring practices for AWS DevOps & SRE candidates, including mentoring interviewers and new hires, creating objective assessment methods and raising the bar on expectations for various roles within AWS.</li>
+						<li>
+							Added support to custom SnapChat service mesh tooling for
+							interfacing with (and displaying) deployments from Spinnaker via
+							an enhanced UI.
+						</li>
+						<li>
+							Designed & developed custom internal Golang service for Snapchat,
+							handling degraded service notifications between application owners
+							on Snap's service mesh.
+						</li>
+						<li>
+							Strategic lead for migration from on-premise custom infrastructure
+							as code tooling & legacy JBOSS applications to containerized
+							applications on managed infrastructure and implementation of CI/CD
+							(via Github Actions & Terraform) for Electronic Arts (EA).
+						</li>
+						<li>
+							Rewrote a significant portion of a custom data recovery tool for
+							Pinterest, streamlining and scaling the application to handle fast
+							& efficient searching through petabytes of data.
+						</li>
+						<li>
+							Created a declarative data model for implementing AWS CDK for less
+							technical teams to migrate to infrastructure-as-code (now utilized
+							by several customers).
+						</li>
+						<li>
+							Served as a subject matter expert for Kubernetes, CI/CD,
+							containerization, on-premises migrations, and fostering overall
+							improvements in DevOps cultural maturity.
+						</li>
+						<li>
+							Improved hiring practices for AWS DevOps & SRE candidates,
+							including mentoring interviewers and new hires, creating objective
+							assessment methods and raising the bar on expectations for various
+							roles within AWS.
+						</li>
 					</ul>
 
 					<div className="tags">
@@ -200,8 +275,8 @@ const Experience = () => {
 							deploying to VMware, Virtualbox, and MAAS (for physical
 							deployments). This has made it possible to quickly iterate and
 							test on the exact same image that’s deployed in all 3 scenarios.
-							Our Server 2016 image is now the 4th most popular image for Vagrant
-							on Atlas.
+							Our Server 2016 image is now the 4th most popular image for
+							Vagrant on Atlas.
 						</li>
 						<li>
 							Automated deployment of application servers utilizing Chef for
@@ -333,7 +408,7 @@ const Experience = () => {
 					</ul>
 				</article>
 			</div>
-				<div className="flex">
+			<div className="flex">
 				<article className="flex-item">
 					<h3>
 						Senior DevOps Engineer @ Angie's List
@@ -423,7 +498,7 @@ const Experience = () => {
 						Windows 7 and Mountain Lion)
 					</p>
 				</article>
-				</div>
+			</div>
 			<div className="flex">
 				<article className="flex-item">
 					<h3>
