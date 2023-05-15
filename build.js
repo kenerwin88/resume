@@ -3,8 +3,14 @@ const sassPlugin = require('esbuild-sass-plugin');
 const fs = require('fs');
 const path = require('path');
 
+const distPath = path.join(__dirname, 'dist');
 const srcHtmlPath = path.join(__dirname, 'index.html');  // Replace with actual path if it's different
-const distHtmlPath = path.join(__dirname, 'dist', 'index.html');
+const distHtmlPath = path.join(distPath, 'index.html');
+
+// Create the dist directory if it doesn't exist
+if (!fs.existsSync(distPath)) {
+  fs.mkdirSync(distPath);
+}
 
 // Copy the HTML file
 fs.copyFileSync(srcHtmlPath, distHtmlPath);
