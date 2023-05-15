@@ -1,7 +1,13 @@
 const esbuild = require('esbuild');
 const sassPlugin = require('esbuild-sass-plugin');
-
+const fs = require('fs');
 const path = require('path');
+
+const srcHtmlPath = path.join(__dirname, 'index.html');  // Replace with actual path if it's different
+const distHtmlPath = path.join(__dirname, 'dist', 'index.html');
+
+// Copy the HTML file
+fs.copyFileSync(srcHtmlPath, distHtmlPath);
 
 esbuild.build({
   entryPoints: [`${__dirname}/src/root.jsx`],
